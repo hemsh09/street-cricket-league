@@ -1,0 +1,116 @@
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox
+input[type='number'] {
+  -moz-appearance: textfield;
+} */
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+body {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-color: #171719;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+* ::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(48, 105, 221, 1);
+  height: 6px;
+  border-radius: 5px;
+}
+
+#root {
+  height: 100%;
+}
+
+.MuiAutocomplete-paper ul {
+  background: #282831;
+  color: #fff;
+}
+
+.MuiAutocomplete-paper li:hover {
+  background-color: #25c4aa;
+}
+
+.MuiMenu-paper ul {
+  background: #282831;
+  color: #fff;
+}
+
+.MuiMenu-paper li:hover {
+  background-color: #25c4aa;
+}
+
+@media (max-width: 780px) {
+  .AppStorePageLayout-appStoreListText-72 {
+    font-size: 14px !important;
+  }
+
+  .AppStorePageLayout-appStoreListItem-70 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .AppStorePageLayout-appStoreListImageWrapper-74 {
+    display: block !important;
+  }
+
+  .AppStorePageLayout-appStoreListImage-75 {
+    width: 44px !important;
+    left: 5% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .AppStorePageLayout-appStoreListItem-70 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .AppStorePageLayout-appStoreListImageWrapper-74 {
+    display: block !important;
+  }
+}

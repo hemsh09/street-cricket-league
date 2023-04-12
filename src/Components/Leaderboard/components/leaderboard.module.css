@@ -1,0 +1,102 @@
+.table_wrap {
+  @apply rounded-md lg:text-base text-center flex min-w-max xl:table text-xs;
+}
+
+.table_head {
+  @apply dark:text-gray-100 text-gray-100 text-[13px] lg:text-left font-normal py-4 px-4;
+}
+
+.tableHead {
+  @apply dark:text-gray-100 font-bold text-gray-100 text-[13px] lg:text-left py-4 px-4;
+}
+
+.tbody {
+  @apply bg-white text-gray-700 font-semibold dark:text-gray-400;
+}
+
+.table_row {
+  @apply dark:border-gray-700 first:max-w-[0rem] hover:bg-[#000000]  first:pl-10  min-w-fit;
+}
+
+.table_row > td {
+  @apply py-4 px-3 font-medium  first:w-4;
+}
+
+.icon {
+  @apply w-8 h-8;
+}
+.caret {
+  @apply w-[0.8rem] h-[0.8rem] fill-current;
+}
+
+.trade_button {
+  @apply text-xs w-[80px] h-[30px] lg:w-[110px] lg:h-[37px]  lg:py-1 rounded-lg font-semibold duration-500 ease-in-out hover:scale-105;
+}
+
+.rowWrapper {
+  @apply lg:bg-none border-b justify-between p-[1px] h-[100%] flex-row lg:flex-col lg:table-row mb-[16px] dark:border-gray-700  lg:first:max-w-[0rem] lg:first:pl-10;
+  border-radius: 48px 16px 0px 48px;
+}
+
+.tableIcon {
+  @apply flex items-center lg:table-cell lg:p-[15px] justify-center p-[10px] lg:bg-none bg-white lg:rounded-tl-none lg:rounded-bl-none rounded-tl-[36px] rounded-bl-[36px];
+}
+
+.buttonWrapper {
+  @apply py-2 lg:inline-block flex flex-col w-auto lg:w-full justify-center text-white font-extrabold p-[10px];
+  border-radius: 0px 14px 0px 0px;
+}
+
+.assetName {
+  @apply flex lg:text-center  justify-center  break-words flex-col lg:table-cell text-start lg:p-4 lg:bg-none p-[10px];
+}
+
+.buttonContainer {
+  @apply flex flex-col lg:pt-5 lg:pb-5 gap-1.5 justify-items-end lg:flex-row lg:gap-3 lg:flex lg:justify-start;
+}
+
+.tableHeadWrapper {
+  @apply text-gray-100 sticky top-0 text-sm bg-[#000000] lg:table-header-group dark:text-gray-400 py-2 px-4;
+}
+
+.TableWrapper {
+  @apply bg-[#000000] w-full lg:text-base text-center flex flex-col lg:block  xl:table text-xs;
+}
+
+.assetNumber {
+  @apply text-center text-[12px] text-[#FFFFFF] font-semibold lg:text-[18px] lg:text-left items-center lg:table-cell lg:p-[15px] justify-start p-[10px] lg:bg-none lg:rounded-tl-none lg:rounded-bl-none rounded-tl-[36px] rounded-bl-[36px];
+}
+
+.selectedTabButton {
+  @apply  font-bold h-[47px] border-b-2 border-solid
+}
+
+.TabButton {
+  @apply font-bold
+}
+
+.container {
+  @apply overflow-y-scroll w-full max-h-[550px] lg:max-h-[650px]
+}
+
+.container::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.userAssetName {
+  @apply flex top-0 w-[262px] lg:w-[327px]  lg:text-center justify-center break-words flex-col lg:table-cell text-start lg:p-4 lg:bg-none p-[10px];
+
+}
+
+.userAssetNumber {
+  @apply text-center lg:w-[61px] text-[#FFFFFF] font-semibold lg:text-[18px] lg:text-left items-center lg:p-[15px] justify-start p-[10px] lg:bg-none lg:rounded-tl-none lg:rounded-bl-none rounded-tl-[36px] rounded-bl-[36px];
+}
+
+.assetWrapper {
+  @apply lg:bg-none flex items-center pr-1 bg-[#000000] p-[1px] h-[100%] flex-row lg:flex-row lg:flex dark:border-gray-700;
+ 
+}
+
+.searchIcon {
+  @apply text-[15px] text-[#000000] bg-[#F7F7F7] font-semibold pl-2
+}
